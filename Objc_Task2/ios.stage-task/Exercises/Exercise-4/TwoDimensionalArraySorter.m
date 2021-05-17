@@ -7,8 +7,8 @@
         return @[];
     }
     
-    NSMutableArray *numberArray = [[NSMutableArray alloc] init];
-    NSMutableArray *stringArray = [[NSMutableArray alloc] init];
+    NSMutableArray *numberArray = [NSMutableArray arrayWithArray: @[]];
+    NSMutableArray *stringArray = [NSMutableArray arrayWithArray: @[]];
     
     for (id b in array) {
         for (id a in b){
